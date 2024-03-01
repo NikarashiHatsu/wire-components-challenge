@@ -1,6 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
+    "./app/Enums/**/*.php",
+    "./app/Livewire/**/*.php",
     "./resources/**/*.blade.php",
     "./resources/**/*.js",
     "./resources/**/*.vue",
